@@ -26,6 +26,7 @@ justify-content:space-between;
 background: var(--mainbg);
 height:8rem;
 padding-right: 8rem;
+width:100vw;
 
 
 .logo{
