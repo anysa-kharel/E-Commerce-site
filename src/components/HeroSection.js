@@ -37,6 +37,7 @@ const HeroSection = ({props}) => {
 export default HeroSection
 
 const Wrapper=styled.section`
+padding: 7rem 0 0 5rem;
 .containerr{
     
     max-width:120rem;
@@ -44,7 +45,7 @@ const Wrapper=styled.section`
 
 
 .gridd{
-    margin-top: 6rem;
+    // margin-top: 6rem;
     display:grid;
     gap: 9 rem;
     

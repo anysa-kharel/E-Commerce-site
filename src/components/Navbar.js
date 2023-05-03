@@ -63,6 +63,7 @@ gap: 4.8rem;
   font-size: 1.5rem;
   font-weight: 2rem;
   color: #000000;
+  font-family: "Poppins";
   
 }
 

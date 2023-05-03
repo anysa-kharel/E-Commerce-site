@@ -1,5 +1,7 @@
 import React from 'react'
 import HeroSection from './HeroSection'
+import Services from './Services'
+import Trusted from './Trusted'
 
 export default function Home() {
   const data={
@@ -9,6 +11,8 @@ export default function Home() {
    <>
    
    <HeroSection props={data}/>
+   <Services/>
+   <Trusted/>
 
    </>
   )
