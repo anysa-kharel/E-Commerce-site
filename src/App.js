@@ -10,6 +10,7 @@ import About from './components/About';
 import Header from './components/Header';
 import ErrorPage from './components/ErrorPage';
 import {GlobalStyle} from './components/GlobalStyle'
+import Footer from './components/Footer';
 
 import {ThemeProvider} from 'styled-components'
 
@@ -71,7 +72,7 @@ function App() {
       <Route exact path="/product" element={<Product/>}/>
       <Route path="*" element={<ErrorPage/>}/>
     </Routes>
-
+  <Footer />
    
     </ThemeProvider>
     </>

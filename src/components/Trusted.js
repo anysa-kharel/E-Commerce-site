@@ -39,8 +39,7 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 background: var(--mainbg);
-margin-left: 5rem;
-margin-right: 5rem;
+
 margin-bottom: 3rem;
 
 
