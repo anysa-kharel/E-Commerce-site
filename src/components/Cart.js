@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function () {
+const Cart = () => {
   return (
     <div>
-      Hello from Cart page.
+      Cart Page.
     </div>
   )
 }
+
+export default Cart
