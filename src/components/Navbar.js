@@ -31,7 +31,7 @@ const Navbar = () => {
 
         <li>
           <Link to="/cart" className="nav-link cart-link" onClick={() => setMenuIcon(false)}><BsCartCheckFill className="cart"/>
-          <span className="cart-item">4</span></Link>
+          <span className="cart-item">0</span></Link>
         </li>
       </ul>
 
@@ -83,7 +83,7 @@ gap: 4.8rem;
   place-items:center;
   position:absolute;
   background-color: var(--maingreen);
-  top:-100%;
+  top:-75%;
   left:50%;
   font-size: 1.2rem;
   
