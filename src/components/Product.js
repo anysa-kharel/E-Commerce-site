@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import Formatprice from './Formatprice';
 
 const Product = (curElem) => {
 
@@ -21,7 +22,7 @@ const Product = (curElem) => {
         </Link>
         <div className="flex">
        <div> {name}</div> 
-       <div>{price}</div> 
+       <div>{<Formatprice price={price} />}</div> 
         </div>
      </div>
     
